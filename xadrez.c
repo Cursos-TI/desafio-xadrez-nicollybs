@@ -36,5 +36,30 @@ int main() {
         j++;
     } while (j < casasRainha);
 
+
+    // Movimento do Cavalo 
+    printf("Movimento do Cavalo (1 movimento em L - 2 cima, 1 direita):\n");
+    int movimentoCavalo = 1;
+
+    while (movimentoCavalo > 0) {
+        for (int k = 0; k < 2; k++) {
+            printf("Cima\n");
+        }
+        printf("Direita\n");
+        movimentoCavalo--;
+    }
+
+    int main () 
+        int movimentocavalo = 1;
+
+        while(movimentocompleto --)
+        { for (int i =0; i < 2; i++) {
+            printf ("cima\n");
+
+            printf ("Direita\n");
+
+        }
+
+
     return 0;
 }
